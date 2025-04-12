@@ -78429,7 +78429,7 @@ A.Nv.prototype={
 y3(){var s=0,r=A.V(t.j),q,p=this,o
 var $async$y3=A.R(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(A.aPx(A.i1("http://localhost:3000/api/forbears/getNationality/"+p.b)),$async$y3)
+return A.X(A.aPx(A.i1("https://forbears-proxy.vercel.app/api/forbears/getNationality/"+p.b)),$async$y3)
 case 3:o=b
 q=J.bw(J.bw(B.dE.RE(0,A.aPh(A.aMN(o.e).c.a.i(0,"charset")).eK(0,o.w),null),"nationality"),"countries")
 s=1
